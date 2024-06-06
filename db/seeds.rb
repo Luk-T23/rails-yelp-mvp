@@ -22,7 +22,7 @@ p 'Making 20 reviews per restaurant'
 
 Restaurant.all.each do
   20.times do
-    Review.create!(rating: r.sample ,content: Faker::Quote.most_interesting_man_in_the_world)
+    Review.create!(rating: r.sample, content: Faker::Quote.most_interesting_man_in_the_world)
   end
 end
 
